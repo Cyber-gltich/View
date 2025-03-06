@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Betting Website</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: Arial, sans-serif;
+            background: #000;
+            color: #fff;
+        }
+        header {
+            background: #111;
+            padding: 20px;
+        }
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            padding: 0 10px;
+        }
+        .gold {
+            color: gold;
+        }
+        section {
+            padding: 50px;
+            text-align: center;
+        }
+        .btn {
+            display: block;
+            margin: 20px auto;
+            padding: 10px 20px;
+            background: #ffcc00;
+            color: #000;
+            border: none;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+        .btn:hover {
+            background: #ffaa00;
+        }
+        .circle-container {
+            display: flex;
+            justify-content: space-around;
+            margin-top: 30px;
+        }
+        .circle {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            background: #ffcc00;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #000;
+        }
+        .features {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+        .feature-box {
+            width: 200px;
+            height: 100px;
+            background: #222;
+            border: 2px solid gold;
+            padding: 10px;
+            text-align: center;
+        }
+        .footer {
+            background: #111;
+            padding: 20px;
+            text-align: center;
+        }
+        .footer-links {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+        }
+        .footer-links a {
+            color: gold;
+            text-decoration: none;
+        }
+
+        .gold {
+            color: gold;
+            align-content: space-around;
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 35px;
+        }
+        .welcome{
+            color: white;
+            align-content: space-around;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            font-size: 20px;
+        }
+        section {
+            padding: 50px;
+            text-align: center;
+        }
+        .btn {
+            display: block;
+            margin: 20px auto;
+            padding: 10px 20px;
+            background: #ffcc00;
+            color: #000;
+            border: none;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+        .btn:hover {
+            background: #ffaa00;
+        }
+        .circle-container {
+            display: flex;
+            justify-content: space-around;
+            margin-top: 30px;
+        }
+        .circle {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            background: black;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            border-style: outset;
+            border-color: #ffcc00;
+        }
+        .features {
+            display: flex;
+            justify-content: space-around;
+        }
+        .feature-box {
+            width: 200px;
+            height: 100px;
+            background: #ffcc00;
+            border-radius: 50%;
+            padding: 10px;
+            text-align: center;
+           
+        }
+        .customer-slider {
+            display: flex;
+            gap: 20px;
+            overflow-x: auto;
+            padding: 20px 0;
+        }
+        .customer-card {
+            min-width: 200px;
+            height: 250px;
+            background: #333;
+            padding: 20px;
+            border: 1px solid gold;
+            border-radius: 10px;
+        }
+        .gray-section {
+            background: #333;
+            padding: 30px;
+        }
+        .contact-form {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+        .contact-form input, .contact-form textarea {
+            padding: 10px;
+            border: 1px solid gold;
+            background: transparent;
+            color: #fff;
+            border-radius: 5px;
+        }
+        .active{
+            color: #ffcc00;
+        }
+        .feature-box{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .customer-card{
+            padding: 0;
+        }
+        .customer-card img{
+            height: 100%;
+            width: 100%;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <div>LOGO</div>
+            <div>
+                <a href="#" class="active"> Home</a>
+                <a href="#">About</a>
+                <a href="#">Services</a>
+                <a href="#">Contact Us</a>
+                <a href="#">Sign Up</a>
+            </div>
+        </nav>
+    </header>
+
+    <section style="background: url('download (4).jpg') no-repeat center/cover; display: flex; align-items: center; justify-content: space-between; padding: 60px;">
+        <div style="max-width: 60%;" img src="c:\Users\valri\Downloads\download (5).jpg">
+            <h1 class="gold">Welcome to Reddy Anna Latest Website</h1>
+            <br>
+            <p class="welcome">India's No.1 sports ID provider since 2010</p>
+            <br>
+            <p>Your gateway to thrilling games and exciting wins!Since 2010, we have been India's leading provider of sports IDs. Our platform offers secure and efficient online cricket ID services, ensuring a seamless experience for our users. With a commitment to excellence, we do provide 
+                  24-hour withdrawal services, making us a trusted choice for sports enthusiasts nationwide.</p>
+                <br>
+                <br>
+            <button class="btn">Contact Us @ 9xxxxxxxxx</button>
+            <button class="btn">Whatsapp Us @ 9xxxxxxxxx</button>
+        </div>
+        <img src="c:\Users\valri\Downloads\download (5).jpg" alt="Floating Image" style="width: 200px; max-width: 60%; margin-right: 50px;">
+    </section>
+
+    <hr color="#ffcc00">
+
+    <section>
+        <h2 class="gold">What is the Reddy Anna Online Betting App?</h2>
+        <p>Reddy Anna Book Online Batting App is a comprehensive and user-friendly platform crafted to elevate your cricket batting skills. Whether you're aiming to perfect your shot selection, sharpen hand-eye coordination, or boost your overall performance, this app serves as your personal virtual coach. Designed for players of all levels, Reddy Anna Book helps you practice with precision, track progress, and build confidence at the crease — making it your ultimate cricket training companion.
+Let me know if you’d like me to refine it further or add anything else!</p>
+        <button class="btn">Contact Us Now</button>
+    </section>
+    <hr color="#ffcc00">
+    <section>
+        <h2 class="gold">Why Choose Us?</h2>
+        <br>
+        <p>At Reddy Anna Book Official, we don't just provide a platform — we create experiences. Our commitment to excellence shines through in every interaction, with seamless services designed to elevate your gaming journey. The heartfelt testimonials from our satisfied players inspire us to keep pushing boundaries and delivering more than just entertainment. Join a community where passion meets innovation, and every player feels valued. Experience the excitement, trust the process, and let Reddy Book be your gateway to an unforgettable gaming adventure.</p>
+        <br>
+        <div class="circle-container">
+            <div class="circle">57k Users</div>
+            <div class="circle">2.6 Lac App Users</div>
+            <div class="circle">4.8 Rating</div>
+        </div>
+        <br>
+        <br>
+        <button class="btn">Open Your Demo Account</button>
+    </section>
+    <br>
+    <hr color="#ffcc00">
+
+
+    <section>
+        <h2 class="gold">Features of the Betting App</h2>
+        <br>
+        <div class="features">
+            <div class="feature-box">🚀 Fast Transactions</div>
+            <div class="feature-box">🔒 Secure Platform</div>
+            <div class="feature-box">📞 24/7 Support</div>
+            <div class="feature-box">🎲 Multiple Games</div>
+            <div class="feature-box">✨ User-Friendly Design</div>
+        </div>
+    </section>
+
+    <hr color="#ffcc00">
+
+    <section>
+        <h2 class="gold">About Reddy Anna Book</h2>
+        <br>
+        <p>Reddy Anna Book has been a trusted cricket betting and trading platform since 2010, ranking as the largest exchange after Mahadev’s Book. With 200,000+ active users, 50,000+ satisfied customers, and 200+ offline branches, it’s a hub for gaming enthusiasts seeking excitement and rewards. The platform offers a wide variety of thrilling games, including cricket, football, and live casino action, with instant cricket IDs, 24/7 unlimited withdrawals, and seamless deposits.
+        Owned and operated by Reddy Anna, the platform ensures a secure, fast, and user-friendly experience, with direct communication via WhatsApp for personalized support. Players benefit from high winning potential, lightning-fast transactions, and round-the-clock customer service, making every moment on Reddy Anna Book packed with adrenaline and opportunity.</p>
+        <br>
+        <button class="btn">Contact Us Now</button>
+    </section>
+
+    <hr color="#ffcc00">
+   
+    <section>
+        <h2 class="gold">Our Trusted Loyal Customers</h2>
+        <div class="customer-slider">
+            <div class="customer-card"><img Src="C:\Users\valri\Downloads\download (4).jpg"> </div>
+            <div class="customer-card">Customer 2</div>
+            <div class="customer-card">Customer 3</div>
+            <div class="customer-card">Customer 4</div>
+            <div class="customer-card">Customer 5</div>
+        </div>
+    </section>
+
+    <br>
+    <hr color="#ffcc00">
+    <section class="gray-section">
+        <h2 class="gold">Get Started to Connect with Us Now</h2>
+        <p>Feel free to connect and explore endless possibilities!</p>
+        <button class="btn" style="background: #28a745; color: #fff;">Connect Now</button>
+    </section>
+    <hr color="#ffcc00">
+    <br>
+
+    <section style="background: url('start-winning-bg.jpg') no-repeat center/cover;">
+        <h2 class="gold">How to Get Started Winning</h2>
+        <br>
+        <p>Experience seamless online betting with Reddy Anna! Get your Cricket ID instantly by contacting us on WhatsApp (details at reddyannaclub.co) and filling out a quick registration form. Easily add funds using PhonePe, GPay, UPI, Net Banking, or Paytm, and dive into the action with live sports, cricket, and casino games. Placing bets is simple — choose your game, select your wager, and confirm. When it’s time to cash out, submit a withdrawal request, and after a quick verification, your winnings will be transferred directly to your bank account. With 24/7 support, fast transactions, and a user-friendly platform, Reddy Anna delivers nonstop excitement and a hassle-free betting experience.</p>
+    </section>
+
+
+    <section>
+        <h2 class="gold">Contact Us</h2>
+        <form class="contact-form">
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea placeholder="Describe your query" rows="5" required></textarea>
+            <button type="submit" class="btn">Submit</button>
+        </form>
+    </section>
+
+    <hr color="#ffcc00">
+
+    <footer class="footer">
+        <br>
+        <div class="footer-links">
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms & Conditions</a>
+            <a href="#">Home</a>
+            <a href="#">Contact Us</a>
+            <a href="#">Services</a>
+            <a href="#">Disclaimer</a>
+        </div>
+        <br>
+        <hr color="#ffcc00">
+        <br>
+        <p>© 2025 Betting Website. All rights reserved.</p>
+    </footer>
+</body>
+</html>
